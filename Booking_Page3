@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Confirmation</title>
+    <style>
+        body {
+            background-color: lavender;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .marquee-text {
+            font-size: 24px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .center-image {
+            display: block;
+            margin: 20px auto;
+        }
+        .emoji {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Booking Confirmation</h1>
+        <div class="marquee-text">
+            <marquee behavior="scroll" direction="left">
+                You have successfully booked a ticket. Happy Journey...!
+            </marquee>
+        </div>
+        <img src="right.gif" class="center-image" width="250" height="250" alt="Image Description">
+        <p class="emoji">&#128522;&#128522;&#128522;&#128522;&#128522;</p>
+    </div>
+</body>
+</html>
